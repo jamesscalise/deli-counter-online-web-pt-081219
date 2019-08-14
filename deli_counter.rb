@@ -1,6 +1,7 @@
 def line(deli_line)
   if deli_line.length == 0
   else
+    
   end
 end
 
