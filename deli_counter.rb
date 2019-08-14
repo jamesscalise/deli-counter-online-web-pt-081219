@@ -11,7 +11,15 @@ def line(deli_line)
 end
 
 def take_a_number(line, name)
+  line << name
+  length = line.length + 1
+  puts "Welcome, #{name}. You are number #{length} in line."
+  return line
 end
 
 def now_serving(line)
+  if line.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts ""
 end
