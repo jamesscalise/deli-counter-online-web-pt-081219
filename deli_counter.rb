@@ -4,9 +4,9 @@ def line(deli_line)
   else
     line = "The line is currently:"
     deli_line.each_with_index{|name, position|
-      line " #{position}. #{name}"
+      line << " #{position}. #{name}"
     }
-   # return line
+   puts line
   end
 end
 
