@@ -11,8 +11,8 @@ def line(deli_line)
 end
 
 def take_a_number(line, name)
-  line << name
-  length = line.length + 1
+  line.push(name)
+  length = line.length
   puts "Welcome, #{name}. You are number #{length} in line."
  # return line
 end
