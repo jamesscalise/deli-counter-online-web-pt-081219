@@ -22,7 +22,7 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
    # return line
   else
-    puts "Currently serving #{line[0]}"
+    puts "Currently serving #{line[0]}."
     line.shift
     #return line
   end
