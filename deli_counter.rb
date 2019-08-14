@@ -1,4 +1,4 @@
-def line
+def line(deli_line)
 end
 
 def take_a_number(line, name)
