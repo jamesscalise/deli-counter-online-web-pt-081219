@@ -6,7 +6,7 @@ def line(deli_line)
     deli_line.each_with_index{|name, position|
       line << " #{position}. #{name}"
     }
-    return line
+   # return line
   end
 end
 
@@ -14,13 +14,16 @@ def take_a_number(line, name)
   line << name
   length = line.length + 1
   puts "Welcome, #{name}. You are number #{length} in line."
-  return line
+ # return line
 end
 
 def now_serving(line)
   if line.length == 0
     puts "There is nobody waiting to be served!"
+   # return line
   else
     puts "Currently serving #{line[0]}"
-    
+    line.shift
+    #return line
+  end
 end
